@@ -4,10 +4,19 @@ import java.util.LinkedList;
 import java.util.List;
 
 import auto_radnje.gume.AutoGuma;
-
+/**
+ * Implementacija interfejsa Radnja, gde se koristi {@link LinkedList} za smestanje objekata klase AutoGuma
+ * 
+ * 
+ * @author Dimitrije Jovanovic
+ * @since 0.9.0
+ *
+ */
 public class VulkanizerskaRadnja implements Radnja {
 
-	
+	/**
+	 * Lista svih guma kao {@link LinkedList}
+	 */
 	private List<AutoGuma> gume=new LinkedList<AutoGuma>();
 	
 	@Override
